@@ -213,7 +213,7 @@ default: // required (in order to cover all possible input)
 // Functions are a first-class type, meaning they can be nested
 // in functions and can be passed around
 
-// Function with Swift header docs (format as reStructedText)
+// Function with Swift header docs (format as modified Markdown)
 
 /**
 A greet operation
@@ -470,7 +470,7 @@ if mySquare === mySquare {
     print("Yep, it's mySquare")
 }
 
-// Optional init
+// Optional resinit
 class Circle: Shape {
     var radius: Int
     override func getArea() -> Int {
